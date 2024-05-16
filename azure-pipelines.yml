@@ -6,7 +6,7 @@ trigger:
 
 pool:
 
-  name: Default
+  name: linux
 
  
 
