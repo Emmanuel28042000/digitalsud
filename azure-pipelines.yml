@@ -43,7 +43,7 @@ steps:
 
     solution: '$(solution)'
 
-    msbuildArgs: '/peployOnBuild=true /p:WebPublishMethod=Package /packageAsSingleFile=true /p:SkipInvalidConfigurations=true /packageLocation="$(build.artifactStagingDirectory)"'
+    MSBuildArgs: '/peployOnBuild=true /p:WebPublishMethod=Package /packageAsSingleFile=true /p:SkipInvalidConfigurations=true /packageLocation="$(build.artifactStagingDirectory)"'
 
     platform: '$(buildPlatform)'
 
