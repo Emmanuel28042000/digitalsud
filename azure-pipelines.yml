@@ -6,7 +6,8 @@ trigger:
 
 pool:
 
-  name: windows
+  name: 'windows'
+  vmImage: 'windows-latest'
 
  
 
